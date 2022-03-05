@@ -1,0 +1,261 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Calibri;
+}
+
+.container {
+  margin: auto;
+}
+
+img,
+p {
+  cursor: pointer;
+}
+
+/*****header*****/
+
+header {
+  background-color: #333333;
+  color: white;
+}
+
+.nav-list,
+.nav-list1 {
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav-list1 {
+  justify-content: flex-start;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  margin-left: 2rem;
+}
+
+.nav-item a {
+  margin-right: 2rem;
+  text-decoration: none;
+  color: white;
+  font-size: 16pt;
+}
+
+.nav-item1 a {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  text-decoration: none;
+  color: #333333;
+  font-size: 16pt;
+  display: block;
+}
+
+.search input[type="text"] {
+  width: 200px;
+  height: 50px;
+  border: 3px solid black;
+  font-size: 10pt;
+  text-align: center;
+  color: lightgrey;
+}
+
+.search {
+  margin-left: auto;
+  margin-right: 2rem;
+}
+
+.logo {
+  font-size: 48pt;
+  margin-right: auto;
+  margin-left: 3rem;
+  cursor: pointer;
+}
+
+/*****header end*****/
+
+/*****hero*****/
+
+.colmcontainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: lightgray;
+  margin-top: 3rem;
+  padding: 3rem 3rem 3rem 3rem;
+}
+
+.colm1 {
+  flex: 1;
+}
+
+.colm2 {
+  flex: 2;
+  font-size: 58pt;
+}
+
+.colm3 {
+  flex: 2;
+  font-size: 18pt;
+}
+
+/*****hero  end*****/
+
+/*****deals*****/
+
+.deals-container {
+  margin: 1rem 2rem 6rem 2rem;
+}
+
+.deals-head {
+  font-size: 30pt;
+  margin-bottom: 2rem;
+  color: #333333;
+}
+
+.card-box {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.card-box p {
+  font-size: 14pt;
+}
+
+.card-item img {
+  height: 120px;
+  width: 120px;
+}
+
+.card-item {
+  height: 120px;
+  width: 120px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/*****deals  end*****/
+
+/*****fashion*****/
+
+.fashion-head {
+  font-size: 30pt;
+  color: #333333;
+  margin-bottom: 1rem;
+}
+
+.cap {
+  font-size: 48pt;
+}
+
+.card-box1 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.card-item1 {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 1rem;
+  background-color: #dbf3fa;
+  height: 190px;
+  width: 160px;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-item1 img {
+  height: 150px;
+  width: 150px;
+  padding-top: 5px;
+}
+
+.fashion-container {
+  margin: 1rem 2rem 3rem 2rem;
+}
+
+.card-box1 p {
+  font-size: 20pt;
+}
+
+.space {
+  margin-top: 3rem;
+}
+/*****fashion  end*****/
+
+/*****link*****/
+
+.link-container {
+  margin: 5rem 2rem 2rem 2rem;
+  font-size: 14pt;
+  justify-content: center;
+  align-items: center;
+  color: #333333;
+  cursor: pointer;
+}
+
+/*****link end*****/
+
+/*****footer****/
+
+footer {
+  background-color: #131a22;
+}
+
+.footer-contain {
+  display: flex;
+  align-items: top;
+  margin-top: 5rem;
+  padding: 2rem 2rem 7rem 2rem;
+}
+
+.footer-nav1 {
+  flex: 1;
+  margin-right: 2rem;
+  line-height: 1.5;
+}
+
+.footer-nav2 {
+  flex: 2;
+  margin-right: 2rem;
+  line-height: 1.5;
+}
+
+.footer-nav3 {
+  flex: 1;
+  margin-right: 2rem;
+  line-height: 1.5;
+}
+
+.footer-nav4 {
+  flex: 0.5;
+  line-height: 1.5;
+}
+
+.footer-nav1,
+.footer-nav2,
+.footer-nav3,
+.footer-nav4,
+ul li {
+  list-style: none;
+}
+
+.footer-item {
+  text-decoration: none;
+  font-size: 16pt;
+  color: white;
+}
+
+.footer-item-head {
+  text-decoration: none;
+  font-size: 18pt;
+  color: white;
+  line-height: 3;
+}
+
+/*****footer end*****/
